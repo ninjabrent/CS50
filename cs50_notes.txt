@@ -1,0 +1,29 @@
+cs50
+
+in terminal (mac):
+
+git clone https://github.com/ninjabrent/CS50.git
+cd cs50
+
+rm -rf lecture0/ #to remove a file
+
+touch hello.html #create new file
+atom . #opens atom text editor program to code html file
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Web Page!
+        </title>
+    </head>
+    <body>
+        Hello, world!
+    </body>
+</html>
+
+git add hello.html
+git commit -m "added hello.html" #save repository and add message
+git status #tells current status of repository
+git push #add changes to github page from local pc
+
