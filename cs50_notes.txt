@@ -2,12 +2,19 @@ cs50
 
 in terminal (mac):
 
+##
+#to update xcode since mojave screwed it up
+xcode-select --install
+##
+
+#get my git repository and place local
 git clone https://github.com/ninjabrent/CS50.git
 cd cs50
 
 rm -rf lecture0/ #to remove a file
 
 touch hello.html #create new file
+
 atom . #opens atom text editor program to code html file
 
 <!DOCTYPE html>
@@ -22,8 +29,11 @@ atom . #opens atom text editor program to code html file
     </body>
 </html>
 
+#add file to next repository save
 git add hello.html
 git commit -m "added hello.html" #save repository and add message
 git status #tells current status of repository
 git push #add changes to github page from local pc
 
+#to create a zip of a folder
+zip -er cbrnewdocs.zip cbr_newdocs
